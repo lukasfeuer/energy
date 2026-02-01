@@ -1,0 +1,284 @@
+CODE	Label - English	Label - French	Label - German	Standard code	Note (EN only)	EC_corporate_code	EC_corporate_uri
+TOTAL	Total	Total	Insgesamt	Y	organisation specific, does not equal the arithemtic sum of all items		
+CF	Combustible fuels	Carburants combustibles	Brennbare Brennstoffe	M	CF=C0000+P1000+S2000+G3000+O4000+R5000+W6000		
+CF_R	Combustible fuels - renewable	Carburants combustibles - renouvelables	Brennbare Brennstoffe - erneuerbare	M	CF_R=R5000+W6210		
+CF_NR	Combustible fuels - non-renewable	Carburants combustibles - non-renouvelables	Brennbare Brennstoffe - nicht erneuerbare	M			
+CF_NR_OTH	Combustible fuels - non-renewable - other	Carburants combustibles - non-renouvelables - autre	Brennbare Brennstoffe - nicht erneuerbare - Sonstige	M			
+FF	Fossil fuels	Combustibles fossiles	Fossile Brennstoffe	M			
+SFF_P1000	Solid fossil fuels and peat	Combustibles fossiles solides et tourbe	Feste fossile Brennstoffe und Torf	M			
+SFF_P1000_S2000	Solid fossil fuels, peat, peat products, oil shale and oil sands	Combustibles fossiles solides, tourbe, produits dérivés de la tourbe, schistes bitumineux et sables bitumineux	Feste fossile Brennstoffe, Torf, Torferzeugnisse, Ölschiefer und bituminöse Sande	M			
+C0000	Coal and manufactured gases	Charbon et gaz manufacturés	Kohle und synthetische Gase	Y	C0000 = C0100 +C0200 + C0300		
+C0000X0350-0370	Solid fossil fuels	Combustibles fossiles solides	Feste fossile Brennstoffe	Y	C0SFF = C0100 +C0200 + C0310 + C0320 +C0330 + C0340 + C0390		
+C0100	Hard coal	Houille	Steinkohle	Y	C0100 = C0110 + C0120		
+C0110	Anthracite	Anthracite	Anthrazit	Y			
+C0120	Bituminous coal	Charbon bitumineux	Bituminöse Kohle	Y	C0120 = C0121 + C0129		
+C0121	Coking coal	Charbon à coke	Kokskohle	Y			
+C0129	Other bituminous coal	Autre charbon bitumineux	Sonstige bituminöse Kohle	Y			
+C0200	Brown coal	Charbon brun	Braunkohle	Y	C0200 = C0210 + C0220		
+C0210	Sub-bituminous coal	Charbon sous-bitumineux	Subbituminöse Kohle	Y			
+C0220	Lignite	Lignite	Lignit (Braunkohle)	Y			
+C0300	Coal products	Produits houilleux	Kohleprodukte	Y	C0300 = C0310 + C0320 +C0330 + C0340 + C0350 + C0360 + C0370 + C0390		
+C0310	Coal coke	Charbon coke	Kohlenkoks	Y	C0310 = C0311 + C0312 +C0313 + C0314		
+C0311	Coke oven coke	Coke de four à coke	Kokereikoks	Y			
+C0312	Gas coke	Coke de gaz	Gaskoks	Y			
+C0313	Coke breeze	Poussier de coke	Koksgrus	Y			
+C0314	Semi cokes	Semi-cokes	Halbkoks	Y			
+C0320	Patent fuel	Aggloméré	Steinkohlebriketts	Y			
+C0330	Brown coal briquettes	Briquettes de lignite	Braunkohlebriketts	Y			
+C0340	Coal tar	Goudron de houille	Benzol	Y			
+C0350-0370	Manufactured gases	Gaz manufacturés	Synthetische Gase	Y	C00MG = C0350 + C0360 + C0370		
+C0350	Coke oven gas	Gaz de four à coke	Kokereigas	Y			
+C0360	Gas works gas	Gaz d'usine à gaz	Ortsgas	Y			
+C0370	Recovered gases	Gaz récupérés	Konvertergas	Y	C0370 = C0371 + C0372 + C0379		
+C0371	Blast furnace gas	Gaz de haut-fourneau	Hochofengas	Y			
+C0372	Basic oxygen steel furnace gas	Gaz de convertisseur à l'oxygène	Anfallendes Gichtgas im LD-Verfahren/Sauerstoffblasverfahren	Y			
+C0379	Other recovered gases	Autres gaz récupérés	Sonstiges Konvertergas	Y			
+C0390	Other coal products	Autres produits houilleux	Sonstige Kohleprodukte	Y			
+P1000	Peat and peat products	Tourbe et produits dérivés de la tourbe	Torf und Torferzeugnisse	Y	P1000 = P1100 +P1200		
+P1100	Peat	Tourbe	Torf	Y	P1100 = P1110 + P1120		
+P1110	Sod peat	Tourbe en granulés	Torfpellets	Y			
+P1120	Milled peat	Tourbe broyée	Torf gemahlen	Y			
+P1200	Peat products	Produits dérivés de la tourbe	Torferzeugnisse	Y	P1200 = P1210 + P1290		
+P1210	Peat briquettes	Briquettes de tourbe	Torfbriketts	Y			
+P1290	Other peat products	Autres produits dérivés de la tourbe	Sonstige Torferzeugnisse	Y			
+S2000	Oil shale and oil sands	Schistes bitumineux et sables bitumineux	Ölschiefer und bituminöse Sande	Y			
+SFF_OTH	Other solid fossil fuels	Autres combustibles fossiles solides	Sonstige feste Brennstoffe	M			
+G3000_C0350-370	Gas	Gaz	Gas	Y			
+G3000_C0360	Natural gas and gas work gas	Gaz naturel et gaz d'usine à gaz	Erdgas und ortsgas	Y			
+G3000	Natural gas	Gaz naturel	Erdgas	Y	G3000 = G3100 + G3200		
+G3100	Compressed natural gas	Gaz naturel compressé	Druck-Erdgas	Y			
+G3200	Liquefied natural gas	Gaz naturel liquéfié	Verflüssigtes Erdgas	Y			
+O4000	Oil and petroleum products	Pétrole et produits pétroliers	Öl und Mineralölerzeugnisse	Y	O4000 = O4A00 + O4600		
+O4000XBIO	Oil and petroleum products (excluding biofuel portion)	Pétrole et produits pétroliers (part de biocarburant non comprise)	Öl und Mineralölerzeugnisse (ohne Biokraftstoffanteil)	Y			
+O4100_TOT_4200-4500	Crude oil, NGL, refinery feedstocks, additives and oxygenates and other hydrocarbons	Pétrole brut, LGN, produits d'alimentation et autres hydrocarbures	Rohöl, NGL, Einsatzmaterial und sonstige Kohlenwasserstoffe	Y	O4A00 = O4100 + O4200 + O4300 + O4400 + O4500		
+O4100_TOT_4200-4500XBIO	Crude oil, NGL, refinery feedstocks, additives and oxygenates and other hydrocarbons (excluding biofuel portion)	Pétrole brut, LGN, produits d'alimentation et autres hydrocarbures (part de biocarburant non comprise)	Rohöl, NGL, Einsatzmaterial und sonstige Kohlenwasserstoffe (ohne Biokraftstoffanteil)	Y			
+O4100_TOT	Crude oil	Pétrole brut	Rohöl	Y	O4100 = 04110 + O4120		
+O4100	Conventional crude oil	Pétrole brut conventionnel	Konventionelles Rohöl	Y			
+NO4100	Unconventional crude oil	Pétrole brut non conventionnel	Unkonventionelles Rohöl	Y			
+O4200	Natural gas liquids	Liquides du gaz naturel	Erdgaskondensate	Y			
+O4300	Refinery feedstocks	Produits d'alimentation des raffineries	Raffinerieeinsatzmaterial	Y			
+O4400X4410	Additives and oxygenates (excluding biofuel portion)	Additifs et composés oxygénés (part de biocarburant non comprise)	Zusatzstoffe und Oxigenate (ohne Biokraftstoffanteil)	Y			
+O4400	Additives and oxygenates	Additifs et composés oxygénés	Zusatzstoffe und Oxigenate	Y			
+O4410	Biofuels for blending	Biocarburants pour mélanges	Biobrennstoffe zum Mischen	Y	O4410 ≤ O4400		
+O4500	Other hydrocarbons	Autres hydrocarbures	Sonstige Kohlenwasserstoffe	Y			
+O4110_4300-4500	Other primary oil products	Autres produits pétroliers primaires	Sonstige Primärölprodukte	Y	O450J = O4110 + O4300 + O4400 + O4500		
+O4200-4500	Other primary oil	Autre prétrole primaire	Sonstige Primäröle	Y			
+O4600	Oil products	Produits pétroliers	Mineralölerzeugnisse	Y	O4600 = O4610 + O4620 + O4630 + O4640 + O4650 + O4660 + O4670 + O4680 + O4690		
+O4600XBIO	Oil products (excluding biofuel portion)	Produits pétroliers (part de biocarburant non comprise)	Mineralölerzeugnisse (ohne Biokraftstoffanteil)	Y			
+O4610	Refinery gas	Gaz de raffinerie	Raffineriegas	Y			
+O4620	Ethane	Éthane	Ethan	Y			
+O4630	Liquefied petroleum gases	Gaz de pétrole liquéfiés	Flüssiggas	Y			
+O4640	Naphtha	Naphta	Naphta	Y			
+O4650	Gasolines	Essences	Benzin	Y	O4650 = O4651 + O4657 + O4653		
+O4651	Aviation gasoline	Essence d'aviation	Flugbenzin	Y			
+O4652	Motor gasoline	Essence moteur	Motorenbenzin	Y	O4652 = O4657 + R5212		
+O4652XR5210B	Motor gasoline (excluding biofuel portion)	Essence moteur (part de biocarburant non comprise)	Motorenbenzin (ohne Biokraftstoffanteil)	Y			
+O4653	Gasoline-type jet fuel	Carburéacteur type essence	Flugturbinenkraftstoff	Y			
+O4660	Kerosenes	Kérosènes	Kerosine	Y	O4660 = O4661+ O4669		
+O4661	Kerosene-type jet fuel	Carburéacteur type kérosène	Flugturbinenkraftstoff auf Petroleumbasis	Y	O4661 = O4667 + R5232		
+O4661XR5230B	Kerosene-type jet fuel (excluding biofuel portion)	Carburéacteur type kérosène (part de biocarburant non comprise)	Flugturbinenkraftstoff auf Petroleumbasis (ohne Biokraftstoffanteil)	Y			
+O4669	Other kerosene	Autre kérosène	Sonstiges Kerosin	Y			
+O4670	Gas oil and diesel oil and heavy gas oil	Gazole et carburant diesel et gazole lourd	Gasöl und Dieselöl und schweres Gasöl	Y	O4670 = O4677 + O4672		
+O4671	Gas oil and diesel oil	Gazole et carburant diesel	Gasöl und Dieselöl	Y	O4671 = O4677 + R5222 = O4678 + O4679		
+O4671XR5220B	Gas oil and diesel oil (excluding biofuel portion)	Gazole et carburant diesel (part de biocarburant non comprise)	Gasöl und Dieselöl (ohne Biokraftstoffanteil)	Y			
+O46711	Road diesel	Diesel routier	Kraftfahrzeug-Diesel	Y			
+O46712	Heating and other gasoil	Fioul domestique et autres gazoles	Heizöl und sonstiges Gasöl	Y			
+O4672	Heavy gas oil	Gazole lourd	Schweres Gasöl	Y			
+O4680	Fuel oil	Fioul	Heizöl	Y	O4680 = O4681 + O4682		
+O4681	Fuel oil (low sulphur <1%)	Fioul (faible teneur en soufre <1%)	Heizöl mit niedrigem Schwefelgehalt (<1 %)	Y			
+O46811	Fuel oil (very low sulphur <0.5%)	Fioul (très faible teneur en soufre <0.5%)	Heizöl mit sehr niedrig Schwefelgehalt (<0.5 %)	Y			
+O4682	Fuel oil (high sulphur >=1%)	Fioul (haute teneur en soufre >=1%)	Heizöl mit hohem Schwefelgehalt (>=1 %)	Y			
+O4690	Other oil products	Autres produits pétroliers	Sonstige Ölprodukte	Y	O4690 = O4691 + O4692 + O4693 + O4694 + O4695 + O4699		
+O4690XO4694	Other oil products (excluding petroleum coke portion)	Autres produits pétroliers (part de coke de pétrole non comprise)	Sonstige Ölprodukte (ohne petrolkoks)	Y			
+O4691	White spirit and special boiling point industrial spirits	White spirit et essences industrielles à point de début d'ébullition spécial	Testbenzin und Industriebrennstoffe	Y			
+O4692	Lubricants	Lubrifiants	Schmierstoffe	Y			
+O4693	Paraffin waxes	Cires de paraffine	Paraffinwachse	Y			
+O4694	Petroleum coke	Coke de pétrole	Petrolkoks	Y			
+O4695	Bitumen	Bitume	Bitumen	Y			
+O4699	Other oil products n.e.c.	Autres produits pétroliers n.c.a.	Sonstige Ölerzeugnisse a.n.g.	Y			
+ROIL	Refined oil products	Produits pétroliers raffinés	Raffinierte flüssige Erdölprodukte	M			
+PP_OTH	Other petroleum products	Autres produits pétroliers	Sonstige Mineralölerzeugnisse	Y			
+RA000	Renewables and biofuels	Énergies renouvelables et biocarburants	Erneuerbare Energien und Biobrennstoffe	Y	organisation specific, not arithmetic sum of all R items		
+RA010	Renewables and biofuels - statistical transfers, joint projects and joint support schemes - added amount	Énergies renouvelables et biocarburants - transferts statistiques, projets communs et régimes d’aide communs - montant ajouté	Erneuerbare Energien und Biokraftstoffe - statistische Transfers, gemeinsame Projekte und gemeinsame Förderregelungen - zusätzlicher Betrag	Y			
+RA020	Renewables and biofuels - statistical transfers, joint projects and joint support schemes - deduced amount	Énergies renouvelables et biocarburants - transferts statistiques, projets communs et régimes d’aide communs - montant déduit	Erneuerbare Energien und Biokraftstoffe - statistische Transfers, gemeinsame Projekte und gemeinsame Förderregelungen - abgezogener Betrag	Y			
+RA100	Hydro	Hydraulique	Wasserenergie	Y	RA100 = RA110 + RA120 + RA130		
+RA110	Pure hydro power	Énergie hydraulique pure	Reine Wasserkraft	Y			
+RA110ROR	Run-of-river hydro power	Énergie hydraulique au fil de l'eau	Laufwasserkraft	Y	RA115 ≤ RA110		
+RA120	Mixed hydro power	Énergie hydraulique mixte	Gemischte Wasserkraft	Y			
+RA120P	Mixed hydro power - pumping	Énergie hydraulique mixte - pompage	Gemischte Wasserkraft - Pumpen	Y	RA125 ≤ RA120		
+RA130	Pumped hydro power	Énergie hydraulique par pompage	Gepumpte Wasserkraft	Y			
+RA200	Geothermal	Géothermique	Geothermie	Y			
+RA300	Wind	Éolien	Wind	Y	RA300 = RA310 + RA320		
+RA310	Wind on shore	Éolien sur terre	Wind auf dem Land	Y			
+RA320	Wind off shore	Éolien en mer	Wind auf dem Meer	Y			
+RA400	Solar	Solaire	Solar	Y	RA400 = RA410 + RA420		
+RA410	Solar thermal	Solaire thermique	Solarwärme	Y			
+RA420	Solar photovoltaic	Solaire photovoltaïque	Solar Photovoltaik	Y	RA420 = RA422 + RA424 + RA426 + RA428		
+RA420AC	Solar photovoltaic - alternating current	Solaire photovoltaïque - courant alternatif	Solar Photovoltaik - Wechselstrom	Y			
+RA420DC	Solar photovoltaic - direct current	Solaire photovoltaïque - courant continu	Solar Photovoltaik - Gleichstrom	Y			
+RA420KW_LT10	Solar photovoltaic (< 10 kW)	Solaire photovoltaïque (< 10 kW)	Solar Photovoltaik (< 20 kW)	Y			
+RA420KW_LT10_RT	Solar photovoltaic (< 10 kW, roof top)	Solaire photovoltaïque (< 10 kW, toiture)	Solar Photovoltaik (< 20 kW, Dach)	Y			
+RA420KW_LT10_OG	Solar photovoltaic (< 10 kW, off grid)	Solaire photovoltaïque (< 10 kW, hors réseau)	Solar Photovoltaik (< 20 kW, netzunabhängig)	Y			
+RA420KW_LT20	Solar photovoltaic (< 20 kW)	Solaire photovoltaïque (< 20 kW)	Solar Photovoltaik (< 20 kW)	Y			
+RA420KW_LT30	Solar photovoltaic (< 30 kW)	Solaire photovoltaïque (< 30 kW)	Solar Photovoltaik (< 30 kW)	Y			
+RA420KW_LT30_RT	Solar photovoltaic (< 30 kW, roof top)	Solaire photovoltaïque (< 30 kW, toiture)	Solar Photovoltaik (< 30 kW, Dach)	Y			
+RA420KW_LT30_OG	Solar photovoltaic (< 30 kW, off grid)	Solaire photovoltaïque (< 30 kW, hors réseau)	Solar Photovoltaik (< 30 kW, netzunabhängig)	Y			
+RA420KW20-1000	Solar photovoltaic (20 kW - 1000 kW)	Solaire photovoltaïque (20 kW - 1000 kW)	Solar Photovoltaik (20 kW - 1000 kW)	Y			
+RA420KW30-1000	Solar photovoltaic (30 kW - 1000 kW)	Solaire photovoltaïque (30 kW - 1000 kW)	Solar Photovoltaik (30 kW - 1000 kW)	Y			
+RA420KW30-1000_RT	Solar photovoltaic (30 kW - 1000 kW, roof top)	Solaire photovoltaïque (30 kW - 1000 kW, toiture)	Solar Photovoltaik (30 kW - 1000 kW, Dach)	Y			
+RA420KW30-1000_OG	Solar photovoltaic (30 kW - 1000 kW, Off grid)	Solaire photovoltaïque (30 kW - 1000 kW, hors réseau)	Solar Photovoltaik (30 kW - 1000 kW, netzunabhängig)	Y			
+RA420MW_GT1	Solar photovoltaic (1+ MW)	Solaire photovoltaïque (1+ MW)	Solar Photovoltaik (1+ MW)	Y			
+RA420MW_GT1_RT	Solar photovoltaic (1+ MW, roof top)	Solaire photovoltaïque (1+ MW, toiture)	Solar Photovoltaik (1+ MW, Dach)	Y			
+RA420MW_GT1_OG	Solar photovoltaic (1+ MW, off grid)	Solaire photovoltaïque (1+ MW, hors réseau)	Solar Photovoltaik (1+ MW, netzunabhängig)	Y			
+RA420OG	Solar photovoltaic (off grid)	Solaire photovoltaïque (hors réseau)	Solar Photovoltaik (netzunabhängig)	Y			
+RA500	Tide, wave, ocean	Énergie hydrocinétique, houlomotrice, marémotrice	Gezeiten-/ Wellen-/Meeresenergie	Y			
+RA600	Ambient heat (heat pumps)	Chaleur ambiante (pompes à chaleur)	Umgebungswärme (Wärmepumpen)	Y			
+RA610	Geothermal heat pumps	Pompes à chaleur géothermique	Geothermische Wärmepumpen	Y			
+RA620	Aerothermal and hydrothermal heat pumps	Pompes à chaleur aérothermique et hydrothermique	Aerothermische und hydrothermale Wärmepumpen	Y			
+RA700	Renewable cooling	Refroidissement renouvelable	Kühlung aus erneuerbaren Quellen	Y			
+R5000	Biofuels	Biocarburants	Biobrennstoffe	Y	R5000 = R5100 + R5200 + R5300		
+R5100	Solid biofuels	Biocarburants solides	Feste Biobrennstoffe	Y	R5100 = R510C + R5160		
+R5100F	Solid biofuels - co-firing	Biocarburants solides - co-combustion	Feste Biobrennstoffe - Co-Feuerung	Y	R510F ≤ R5100		
+R5101	Primary biomass - from forest	Biomasse primaire – provenant de forêt	Primärbiomasse - aus dem Wald	Y			
+R5102	Branches and tree tops	Branches et cimes d’arbres	Äste und Baumkronen	Y			
+R5103	Stumps	Souches	Stümpfe	Y			
+R5104	Roundwood	Bois rond	Rundholz	Y			
+R5105	Industrial roundwood	Bois rond industriel	Industrierundholz	Y			
+R5106	Fuelwood	Bois de chauffage	Brennholz	Y			
+R5107	Forest-based industry co-products	Coproduits de l'industrie forestière	Nebenprodukte der Forstindustrie	Y			
+R5108	Bark	Écorce	Rinde	Y			
+R5109	Chips, sawdust and other wood particles	Copeaux, sciures et autres particules de bois	Hackschnitzel, Sägemehl und andere Holzpartikel	Y			
+R5110-5150_W6000RI	Primary solid biofuels	Biocarburants solides primaires	Feste primäre Biobrennstoffe	Y	R510C = R5110 + R5120 + R5130 + R5140 + R5150 + R5159		
+R5110-5150_W6000RIS	Sustainable primary solid biofuels	Biocarburants primaires solides durables	Feste, nachhaltige primäre Biobrennstoffe	Y			
+R5110	Fuelwood, wood residues and byproducts	Bois de chauffage, résidus de bois et sous-produits	Brennholz, Holzrückstände und Nebenprodukte	Y			
+R5111	Wood pellets	Granulés de bois	Holzpellets	Y			
+R5112	Post-consumer wood	Bois valorisé	Altholz	Y			
+R5113	Processed wood-based fuel, produced - from feedstocks	Combustible transformé à base de bois, produit  à partir de matières premières	Verarbeiteter Brennstoff auf Holzbasis, hergestellt aus Rohstoffen	Y			
+R5119	Other fuelwood, wood residues and byproducts	Autres bois de chauffage, résidus de bois et sous-produits	Sonstiges Brennholz, Holzrückstände und Nebenprodukte	Y			
+R5120	Bagasse	Bagasse	Bagasse	Y			
+R5130	Animal waste	Déchets animaux	Tierische Abfälle	Y			
+R5140_5141	Black liquor and crude tall oil	Liqueur noire et huile de tall	Schwarzlauge und rohes Tallöl	Y			
+R5140	Black liquor	Liqueur noire	Schwarzlauge	Y			
+R5141	Crude tall oil	Huile de tall	Rohes Tallöl	Y			
+R5150	Other vegetal material and residues	Autres matières et résidus végétaux	Sonstige pflanzliche Materialien und Rückstände	Y			
+R5151	Agricultural biomass	Biomasse agricole	Landwirtschaftliche Biomasse	Y			
+R5152	Energy crops for electricity or heat (including short rotation coppice)	Cultures énergétiques pour l'électricité ou la chaleur (y compris les taillis à courte rotation)	Energiepflanzen für Strom oder Wärme (einschließlich Kurzumtrieb)	Y			
+R5153	Energy crops for electricity or heat - from food and feed feedstocks	Cultures énergétiques pour l'électricité ou la chaleur - à partir de matières premières destinées à l'alimentation humaine et animale	Energiepflanzen für Strom oder Wärme - aus Lebensmitteln und Futtermitteln	Y			
+R5154	Agricultural crop residues for electricity or heat	Résidus de cultures agricoles pour l'électricité ou la chaleur	Landwirtschaftliche Ernterückstände für Strom oder Wärme	Y			
+R5159	Other agricultural biomass	Autre biomasse agricole	Andere landwirtschaftliche Biomasse	Y			
+W6000RI	Renewable fraction of industrial waste	Proportion renouvelable des déchets industriels	Erneuerbare Fraktion der Industrieabfälle	Y			
+R5160	Charcoal	Charbon de bois	Holzkohle	Y			
+R5200	Liquid biofuels	Biocarburants liquides	Flüssige Biobrennstoffe	Y	R5200 = R5210 + R5220 + R5230 + R5290		
+R5210	Biogasoline	Bioessence	Biobenzin	Y	R5210 = R5211 + R5212		
+R5210P	Pure biogasoline	Bioessence pure	Reines Biobenzin	Y			
+R5210B	Blended biogasoline	Bioessence mélangée	Gemischtes Biobenzin	Y			
+R5210E	Bioethanol	Bioéthanol	Bioethanol	Y	R5215 ≤ R5210		
+R5220	Biodiesels	Biodiesels	Biodiesels	Y	R5220 = R5221 + R5222		
+R5220P	Pure biodiesels	Biodiesels purs	Reines Biodiesels	Y			
+R5220B	Blended biodiesels	Biodiesels mélangés	Gemischtes Biodiesels	Y			
+R5230	Bio jet kerosene	Biokérosène	Bio-Flugturbinenkraftstoff	Y	R5230 = R5231 + R5232		
+R5230P	Pure bio jet kerosene	Biokérosène pur	Reiner Bio-Flugturbinenkraftstoff	Y			
+R5230B	Blended bio jet kerosene	Biokérosène mélangé	Gemischter Bio-Flugturbinenkraftstoff	Y			
+R5250S	Sustainable biofuels	Biocarburants durables	Nachhaltige flüssige Biobrennstoffe	Y			
+R5251S	Sustainable biofuels Annex IX	Biocarburants durables Annexe IX	Nachhaltige flüssige Biobrennstoffe Anhang IX	Y			
+R5252S	Sustainable biofuels Annex IX, Part A	Biocarburants durables Annexe IX, Partie A	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A	Y			
+R5253S	Sustainable biofuels Annex IX, Part A (a) - from algae	Biocarburants durables Annexe IX, Partie A (a) - algues	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (a) - Algen	Y			
+R5254S	Sustainable biofuels Annex IX, Part A (b) - from biomass in mixed municipal waste	Biocarburants durables Annexe IX, Partie A (b) - biomasse dans les déchets municipaux en mélange	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (b) - Biomasse-Anteil gemischter Siedlungsabfälle	Y			
+R5255S	Sustainable biofuels Annex IX, Part A (c) - from biowaste	Biocarburants durables Annexe IX, Partie A (c) - biodéchets	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (c) - Bioabfall	Y			
+R5256S	Sustainable biofuels Annex IX, Part A (d) - from biomass in industrial waste	Biocarburants durables Annexe IX, Partie A (d) - biomasse dans les déchets industriels	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (d) - Biomasse-Anteil von Industrieabfällen	Y			
+R5257S	Sustainable biofuels Annex IX, Part A (e) - from straw	Biocarburants durables Annexe IX, Partie A (e) - paille	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (e) - Stroh	Y			
+R5258S	Sustainable biofuels Annex IX, Part A (f) - from animal manure and sewage sludge	Biocarburants durables Annexe IX, Partie A (f) - fumier et boues d'épuration	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (f) - Gülle und Klärschlamm	Y			
+R5259S	Sustainable biofuels Annex IX, Part A (g) - from palm oil effluent and empty palm fruit bunches	Biocarburants durables Annexe IX, Partie A (g) - effluents d'huileries de palme et rafles	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (g) - Abwasser aus Palmölmühlen und leere Palmfruchtbündel	Y			
+R5260S	Sustainable biofuels Annex IX, Part A (h) - from tall oil pitch	Biocarburants durables Annexe IX, Partie A (h) - brai de tallol	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (h) - Tallölpech	Y			
+R5261S	Sustainable biofuels Annex IX, Part A (i) - from crude glycerine	Biocarburants durables Annexe IX, Partie A (e) - glycérine brute	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (i) - Rohglyzerin	Y			
+R5262S	Sustainable biofuels Annex IX, Part A (j) - from bagasse	Biocarburants durables Annexe IX, Partie A (j) - bagasse	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (j) - Bagasse	Y			
+R5263S	Sustainable biofuels Annex IX, Part A (k) - from grape marcs and wine lees	Biocarburants durables Annexe IX, Partie A (k) - marcs de raisins et lies de vin	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (k) - Traubentrester und Weintrub	Y			
+R5264S	Sustainable biofuels Annex IX, Part A (l) - from nut shells	Biocarburants durables Annexe IX, Partie A (l) - coques	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (l) - Nussschalen	Y			
+R5265S	Sustainable biofuels Annex IX, Part A (m) - from husks	Biocarburants durables Annexe IX, Partie A (m) - balles (enveloppes)	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (m) - Hülsen	Y			
+R5266S	Sustainable biofuels Annex IX, Part A (n) - from cobs cleaned of kernels of corn	Biocarburants durables Annexe IX, Partie A (n) - râpes	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (n) - entkernte Maiskolben	Y			
+R5267S	Sustainable biofuels Annex IX, Part A (o) - from biomass fraction of wastes and residues from forestry and forest-based industries	Biocarburants durables Annexe IX, Partie A (o) - fraction de la biomasse correspondant aux déchets et résidus provenant de la sylviculture et de la filière bois	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (o) - Biomasse-Anteile von Abfällen und Reststoffen aus der Forstwirtschaft und forstbasierten Industrien	Y			
+R5268S	Sustainable biofuels Annex IX, Part A (p) - from other non-food cellulosic material - article 2 second paragraph point (s)	Biocarburants durables Annexe IX, Partie A (p) - autres matières cellulosiques non alimentaires - article 2 deuxième alinéa point s)	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (p) - anderes zellulosehaltiges Non-Food-Material - Artikel 2 Absatz 2 Buchstabe s	Y			
+R5269S	Sustainable biofuels Annex IX, Part A (q) - from other ligno-cellulosic material - article 2 second paragraph point (r) except saw logs and veneer logs	Biocarburants durables Annexe IX, Partie A (q) - autres matières ligno-cellulosiques - article 2 deuxième alinéa point r) à l'exception des grumes de sciage et de placage	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (q) - anderes lignozellulosehaltiges Material - Artikel 2 Absatz 2 Buchstabe r mit Ausnahme von Säge- und Furnierrundholz	Y			
+R5270S	Sustainable biofuels Annex IX, Part A (r) - from renewable liquid and gaseous transport fuels of non-biological origin	Biocarburants durables Annexe IX, Partie A (r) - carburants liquides et gazeux renouvelables destinés au secteur du transport, d'origine non biologique	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (r) - im Verkehrssektor eingesetzte flüssige oder gasförmige erneuerbare Kraftstoffe nicht biogenen Ursprungs	Y			
+R5271S	Sustainable biofuels Annex IX, Part A (s) - from carbon capture and utilisation for transport purposes, if the energy source is renewable - article 2 second paragraph point (a)	Biocarburants durables Annexe IX, Partie A (s) - Captage et utilisation du dioxyde de carbone à des fins de transport, si la source d'énergie est renouvelable - article 2 deuxième alinéa point a)	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (s) - Abscheidung und Nutzung von CO2 für Verkehrszwecke, sofern die Energiequelle erneuerbar ist - Artikel 2 Absatz 2 Buchstabe a	Y			
+R5272S	Sustainable biofuels Annex IX, Part A (t) - from bacteria, if the energy source is renewable - article 2 second paragraph point (a)	Biocarburants durables Annexe IX, Partie A (t) - bactéries, si la source d'énergie est renouvelable - article 2 deuxième alinéa point a)	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil A (t) - Bakterien, sofern die Energiequelle erneuerbar ist - Artikel 2 Absatz 2 Buchstabe a	Y			
+R5273S	Sustainable biofuels Annex IX, Part B	Biocarburants durables Annexe IX, Partie B	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil B	Y			
+R5274S	Sustainable biofuels Annex IX, Part B (a) - from used cooking oil	Biocarburants durables Annexe IX, Partie B (a) - huiles de cuisson usagées	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil B (a) - gebrauchtes Speiseöl	Y			
+R5275S	Sustainable biofuels Annex IX, Part B (b) - from animal fats classified as categories 1 and 2 (Regulation (EC) No 1069/2009)	Biocarburants durables Annexe IX, Partie B (b) - graisses animales classées dans les catégories 1 et 2 (Règlement (CE) no 1069/2009)	Nachhaltige flüssige Biobrennstoffe Anhang IX, Teil B (b) - tierische Fette, die in die Kategorien 1 und 2 eingestuft sind (Verordnung (EG) Nr. 1069/2009)	Y			
+R5276S	Sustainable biofuels 3(4)d first paragraph - from cereal and other starch-rich crops, sugars and oil crops and from crops grown as main crops primarily for energy purposes on agricultural land	Biocarburants durables 3(4)d premier alinéa - à partir de céréales et d'autres plantes riches en amidon, sucrières et oléagineuses et à partir de cultures cultivées en tant que cultures principales essentiellement à des fins de production d'énergie sur des terres agricoles	Nachhaltige flüssige Biobrennstoffe 3 (4) d erster Absatz, die aus Getreide und sonstigen Kulturpflanzen mit hohem Stärkegehalt, Zuckerpflanzen, Ölpflanzen und aus als Hauptkulturen vorrangig für die Energiegewinnung auf landwirtschaftlichen Flächen angebauten Pflanzen hergestellt werden	Y			
+R5277S	Sustainable biofuels 3(4)d third paragraph, subsection (i) and (ii)	Biocarburants durables 3(4)d troisième alinéa sous-section (i) et (ii)	Nachhaltige flüssige Biobrennstoffe 3 (4) d Absatz 3, Unterabschnitt (i) und (ii)	Y			
+R5278S	Sustainable biofuels - other	Biocarburants durables - autres	Nachhaltige flüssige Biobrennstoffe - Sonstige flüssige Biobrennstoffe	Y			
+R5279S	Grandfathered biofuels	Biocarburants - droits-acquis	Flüssige Biobrennstoffe - erworbene Rechte	Y			
+R5280S	Sustainable biofuels from food and feed crops	Biocarburants durables provenant de cultures destinées à l'alimentation humaine ou animale	Nachhaltige flüssige Biobrennstoffe aus Nahrungs- und Futtermittelpflanzen	Y			
+R5281S	Sustainable biofuels from food and feed crops - non-high indirect land use change-risk	Biocarburants durables provenant de cultures destinées à l'alimentation humaine ou animale - sans un risque élevé d'induire des changements indirects dans l'affectation des sols	Nachhaltige flüssige Biobrennstoffe aus Nahrungs- und Futtermittelpflanzen - ohne hohen Risiko indirekter Landnutzungsänderungen	Y			
+R5290	Other liquid biofuels	Autres biocarburants liquides	Sonstige flüssige Biobrennstoffe	Y			
+R5292	Bioliquids	Bioliquides	Biokraftstoffe	Y			
+R5292P	Pure bioliquids	Bioliquides pures	Reine Biokraftstoffe	Y			
+R5292B	Blended bioliquids (only bio-part)	Bioliquides mélangés (seulement part de biocarburant)	Gemichte Biokraftstoffe (nur Biokraftstoffanteil)	Y			
+R5292S	Sustainable bioliquids	Bioliquides durables	Nachhaltige Biokraftstoffe	Y			
+R5292SP	Sustainable pure bioliquids	Bioliquides durables pures	Nachhaltige reine Biokraftstoffe	Y			
+R5292SB	Sustainable blended bioliquids (only bio-part)	Bioliquides durables mélangés (seulement part de biocarburant)	Nachhaltige gemichte Biokraftstoffe (nur Biokraftstoffanteil)	Y			
+R5293S	Sustainable bioliquids from non-food sources	Bioliquides durables provenant de sources non alimentaires	Nachhaltige Biokraftstoffe aus Non-Food-Quellen	Y			
+R5293SP	Sustainable pure bioliquids from non-food sources	Bioliquides durables pures provenant de sources non alimentaires	Nachhaltige reine Biokraftstoffe aus Non-Food-Quellen	Y			
+R5293SB	Sustainable blended bioliquids (only bio-part) from non-food sources	Bioliquides durables mélangés (seulement part de biocarburant) provenant de sources non alimentaires	Nachhaltige gemichte Biokraftstoffe (nur Biokraftstoffanteil) aus Non-Food-Quellen	Y			
+R5294S	Sustainable bioliquids from food and feed crops	Bioliquides durables provenant de cultures destinées à l'alimentation humaine ou animale	Nachhaltige Biokraftstoffe aus Nahrungs- und Futtermittelpflanzen	Y			
+R5294SP	Sustainable pure bioliquids from food and feed crops	Bioliquides durables pures provenant de cultures destinées à l'alimentation humaine ou animale	Nachhaltige reine Biokraftstoffe aus Nahrungs- und Futtermittelpflanzen	Y			
+R5294SB	Sustainable blended bioliquids (only bio-part) from food and feed crops	Bioliquides durables mélangés (seulement part de biocarburant) provenant de cultures destinées à l'alimentation humaine ou animale	Nachhaltige gemichte Biokraftstoffe (nur Biokraftstoffanteil) aus Nahrungs- und Futtermittelpflanzen	Y			
+R5295S	Sustainable bioliquids from food and feed crops - from non-high indirect land use change-risk	Bioliquides durables provenant de cultures destinées à l'alimentation humaine ou animale - sans un risque élevé d'induire des changements indirects dans l'affectation des sols	Nachhaltige Biokraftstoffe aus Nahrungs- und Futtermittelpflanzen - ohne hohen Risiko indirekter Landnutzungsänderungen	Y			
+R5295SP	Sustainable pure bioliquids from food and feed crops - from non-high indirect land use change-risk	Bioliquides durables pures provenant de cultures destinées à l'alimentation humaine ou animale - sans un risque élevé d'induire des changements indirects dans l'affectation des sols	Nachhaltige reine Biokraftstoffe aus Nahrungs- und Futtermittelpflanzen - ohne hohen Risiko indirekter Landnutzungsänderungen	Y			
+R5295SB	Sustainable blended bioliquids (only bio-part) from food and feed crops - from non-high indirect land use change-risk	Bioliquides durables mélangés (seulement part de biocarburant) provenant de cultures destinées à l'alimentation humaine ou animale - sans un risque élevé d'induire des changements indirects dans l'affectation des sols	Nachhaltige gemichte Biokraftstoffe (nur Biokraftstoffanteil) aus Nahrungs- und Futtermittelpflanzen  - ohne hohen Risiko indirekter Landnutzungsänderungen	Y			
+R5300	Biogases	Biogaz	Biogas	Y	R5300 = R5310 + R5320		
+R5300B	Blended biogases	Biogaz mélangés	Gemischtes Biogas	Y			
+R5300S	Sustainable biogases	Biogaz durables	Nachhaltiges Biogas	Y			
+R5300SB	Sustainable blended biogases	Biogaz durables mélangés	Nachhaltiges gemischtes Biogas	Y			
+R5301SB	Biogases in the grid allocated based on sustainability certificates	Biogaz dans le réseau attribué sur la base des certificats de durabilité	Biogas im Netz, das auf der Grundlage von Nachhaltigkeitszertifikaten zugeteilt wurde	Y			
+R5310	Biogases from anaerobic fermentation	Biogaz issus de la fermentation anaérobique	Biogas aus anaerober Gärung	Y	R5310 = R5311 + R5312 + R5319		
+R5311	Landfill gas	Gaz de décharge	Deponiegas	Y			
+R5312	Sewage sludge gas	Gaz de digestion des boues	Klärschlammgas	Y			
+R5319	Other biogases from anaerobic fermentation	Autres biogaz issus de la fermentation anaérobique	Sonstige Biogase aus anaerober Gärung	Y			
+R5320	Biogases from thermal processes	Biogaz issus de procédés thermiques	Biogase aus thermischen Prozessen	Y			
+RA500_5160	Other renewable energies	Autres énergies renouvelables	Sonstige erneuerbare Energien	Y			
+W6000	Waste	Déchets	Abfälle	Y	W6000 = W6100 + W6200		
+W6100	Industrial waste (non-renewable)	Déchets industriels (non-renouvelables)	Industrieabfälle (nicht erneuerbare)	Y			
+W6100F	Industrial waste (non-renewable) - co-firing	Déchets industriels (non-renouvelables) - co-combustion	Industrieabfälle (nicht erneuerbare) - Co-Feuerung	Y	W610F ≤ W6100		
+W6200	Municipal waste	Déchets municipaux	Siedlungsabfälle	Y	W6200 = W6210+W6220		
+W6200F	Municipal waste - co-firing	Déchets municipaux - co-combustion	Siedlungsabfälle - Co-Feuerung	Y	W620F = W621F + W622F		
+W6205	Organic waste biomass	Biomasse des déchets organiques	Biomasse aus Bioabfall	Y			
+W6210	Renewable municipal waste	Déchets municipaux renouvelables	Erneuerbare Siedlungsabfälle	Y			
+W6210F	Renewable municipal waste - co-firing	Déchets municipaux renouvelables - co-combustion	Erneuerbare Siedlungsabfälle - Co-Feuerung	Y	W621F ≤ W6210		
+W6220	Non-renewable municipal waste	Déchets municipaux non-renouvelables	Nicht erneuerbare Siedlungsabfälle	Y			
+W6220F	Non-renewable municipal waste - co-firing	Déchets municipaux non-renouvelables - co-combustion	Nicht erneuerbare Siedlungsabfälle - Co-Feuerung	Y	W622F ≤ W6220		
+W6100_6220	Non-renewable waste	Déchets non-renouvelables	Nicht erneuerbare Abfälle	Y	W60NR = W6100 + W6220		
+W6230	Waste sludges	Boues résiduaires	Abfallschlamm	Y			
+N9000	Nuclear fuels and other fuels n.e.c.	Combustibles nucléaires et autres combustibles n.c.a.	Nukleare Brennstoffe und sonstige Brennstoffe a.n.g.	Y			
+N900H	Nuclear heat	Chaleur nucléaire	Kernenergie	Y			
+N9100	Uranium, plutonium and thorium	Uranium, plutonium et thorium	Uran, Plutonium und Thorium	Y			
+N9110	Uranium and thorium ores	Minerais d'uranium et de thorium	Uran- und Thoriumerze	Y			
+N9190	Other uranium, plutonium and thorium	Autres uranium, plutonium et thorium	Sonstiges Uran, Plutonium und Thorium	Y			
+N9200	Other nuclear fuels	Autres combustibles nucléaires	Sonstige nukleare Brennstoffe	Y			
+E7000	Electricity	Électricité	Elektrizität	Y			
+E7100	Electricity - renewable	Électricité - renouvelable	Elektrizität - erneuerbare	Y			
+E7101	Electricity - renewable - direct connection line	Électricité - renouvelable - ligne de connexion directe	Elektrizität - erneuerbare - direkte Anschlussleitung	M			
+E7102	Electricity - renewable - grid	Électricité - renouvelable - réseau	Elektrizität - erneuerbare - Netz	M			
+E7200	Electricity - non-renewable	Électricité - non renouvelable	Elektrizität - nicht erneuerbare	Y			
+H8000	Heat	Chaleur	Wärme	Y			
+H8000D	Derived heat and district heating	Chaleur dérivée et chauffage urbain	Abgeleitete Wärme und Fernwärme	Y			
+H8200	Waste heat and cold	Chaleur et froid résiduels	Abwärme und -kälte	Y			
+X9900R	Other fuels n.e.c. - renewable	Autres combustibles n.c.a. - renouvelables	Sonstige Brennstoffe a.n.g. - eneuerbare	Y			
+X9900NR	Other fuels n.e.c. - non-renewable	Autres combustibles n.c.a. - non-renouvelables	Sonstige Brennstoffe a.n.g. - nicht eneuerbare	Y			
+X9900H	Other fuels n.e.c. - heat from chemical sources	Autres combustibles n.c.a. - chaleur de sources chimiques	Sonstige Brennstoffe a.n.g. - Wärme von chemischen Quellen	Y			
+X9900	Other fuels n.e.c.	Autres combustibles n.c.a.	Sonstige Brennstoffe a.n.g.	Y			
+BA100	Batteries	Batteries	Batterien	Y	BA100 = BA100MWh_LT1 + BA100MWh1-10 + BA100MWh10-100 + BA100MWh_GT100		
+BA100MWH_LT1	Batteries (< 1 MWh)	Batteries (< 1 MWh)	Batterien (< 1 MWh)	Y			
+BA100MWH1-10	Batteries (1 MWh - 10 MWh)	Batteries (1 MWh - 10 MWh)	Batterien (1 MWh - 10 MWh)	Y			
+BA100MWH10-100	Batteries (10 MWh - 100 MWh)	Batteries (10 MWh - 100 MWh)	Batterien (10 MWh - 100 MWh)	Y			
+BA100MWH_GT100	Batteries (100 +MWh)	Batteries (100 +MWh)	Batterien (100 +MWh)	Y			
+BIOE	Bioenergy	Bioénergie	Bioenergie	M			
+FE	Fossil energy	Énergie fossile	Fossile Energie	M			
+AMM	Ammonia (NH3)	Ammoniaque	Ammoniak	M			
+HYD	Hydrogen (H2)	Hydrogène	Wasserstoff	M			
+RHYD	Hydrogen of renewable origin	Hydrogène produit à partir de sources d’énergie renouvelables	Wasserstoff aus erneuerbaren Energiequellen	M			
+EFUEL	E-fuels	E-carburants	E-Kraftstoffe	M			
+RSYNF	Synthetic fuels of renewable origin	Carburants d'origine non-biologique produit à partir de sources d’énergie renouvelables	Erneuerbare Kraftstoffe nicht biogenen Ursprungs	M			
+RCF	Recycled carbon fuels	Carburants à base de carbone recyclé	Wiederverwertete kohlenstoffhaltige Kraftstoffe	M			
+OTH	Other	Autres	Sonstige	Y			
