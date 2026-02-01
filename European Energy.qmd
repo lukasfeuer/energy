@@ -1,0 +1,17 @@
+---
+title: "European Energy"
+subtitle: "An Analysis of Production and Consumption"
+author: "Lukas Feuer"
+format: html
+---
+
+## Metadata
+- Dataset metadata for the Energy Quant - Dataset: https://ec.europa.eu/eurostat/cache/metadata/en/nrg_quant_esms.htm
+- Energy Statistics Manual: https://ec.europa.eu/eurostat/documents/3859598/5885369/NRG-2004-EN.PDF.pdf/b3c4b86f-8e88-4ca6-9188-b95320900b3f?t=1414781129000
+
+
+## Energy Production 
+
+
+
+## Energy Consumption
