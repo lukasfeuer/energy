@@ -6,7 +6,10 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "eurostat>=1.1.1",
+    "fastparquet>=2024.11.0",
+    "jupyter>=1.1.1",
     "numpy>=2.0.2",
     "pandas>=2.3.3",
     "plotnine>=0.13.6",
+    "pyarrow>=21.0.0",
 ]

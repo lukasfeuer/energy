@@ -1,17 +1,123 @@
 ---
 title: "European Energy"
-subtitle: "An Analysis of Production and Consumption"
+subtitle: "A Brief Analysis of Energy Production and Consumption"
 author: "Lukas Feuer"
-format: html
+format: 
+    html:
+        code-fold: true
+        embed-resources: true
 ---
 
-## Metadata
-- Dataset metadata for the Energy Quant - Dataset: https://ec.europa.eu/eurostat/cache/metadata/en/nrg_quant_esms.htm
-- Energy Statistics Manual: https://ec.europa.eu/eurostat/documents/3859598/5885369/NRG-2004-EN.PDF.pdf/b3c4b86f-8e88-4ca6-9188-b95320900b3f?t=1414781129000
+```{python}
+#| label: libraries-and-data
+#| output: false
 
+# Libraries
+import pandas as pd 
+from plotnine import *
+from matplotlib.figure import figaspect
+from PIL.ImageMath import lambda_eval
+from mizani.labels import number_format
+
+# Net Electricity Generation
+d = pd.read_parquet("datasets/EU net monthly Energy Generation 2026-02-01.parquet", engine="fastparquet")
+
+# Standard International Engergy Classification
+siec = pd.read_table("datasets/ESTAT_SIEC_14.0.tsv", delimiter="\t")
+
+# SIEC Lvl. 2 approximation Labels 
+siec_labels = {
+    "CF" : "Combustable Fuels", # = CF_NR + CF_R? FE ? # 
+    "N9000" : "Nuklear", 
+    "RA100" : "Hydro", 
+    "RA200" : "Geothermal",
+    "RA300" : "Wind", 
+    "RA400" : "Solar"
+}
+
+# Overview of available Energy Classes in the data
+siec_d = pd.DataFrame(d.siec.unique())
+pd.merge(siec_d, siec, how="left", left_on=0, right_on="CODE")
+```
+
+## Metadata
+- [Dataset metadata for the Energy Quant - Dataset](https://ec.europa.eu/eurostat/cache/metadata/en/nrg_quant_esms.htm)
+- [Energy Statistics Manual](https://ec.europa.eu/eurostat/documents/3859598/5885369/NRG-2004-EN.PDF.pdf/b3c4b86f-8e88-4ca6-9188-b95320900b3f?t=1414781129000)
+- [Bulk Download of all code lists](https://ec.europa.eu/eurostat/databrowser/bulk?lang=en&selectedTab=codeList)
+- [Standard International Engergy Classification (SIEC)](https://ec.europa.eu/eurostat/databrowser/bulk?lang=en&selectedTab=codeList&filter=%7B%22id%22:%22siec%22%7D)
 
 ## Energy Production 
 
+### Share of Renewables in EU Electricity Generation
+
+The figure below shows the share of renewable energy generation across a selection of some EU countries. Denmark consitently has one of the highest share of renewable energy generation and like Sweden, there is considerably less variation over the course of a year. 
+
+```{python}
+#| label: EU_comparison
+#| fig-align: "center"
+
+(
+    d.query("siec == 'RA000' and unit == 'PC'")
+    .query('geo in ["AT", "DE", "DK", "EU27_2020", "FR", "HU", "SE"]')
+    .drop(columns=["freq", "siec", "unit"])
+    .rename(columns={"variable": "ym", "value" : "perc"})
+    .assign(ym = lambda x: pd.to_datetime(x.ym))
+    .query('ym>=2023')
+) >> (
+    ggplot(aes("ym", "perc", group="geo", color="geo"))
+    + geom_line()
+    + geom_point(aes(shape="geo"))
+    + scale_x_datetime(date_labels="%Y", breaks="1 year")
+    + scale_y_continuous(labels=number_format(suffix="%"))
+    + labs(x="", y=""
+        , title="EU Net Electricity Generation"
+        , subtitle="Percentage of renewables and biofules"
+        , caption="Source: Eurostat (nrg_cb_pem)")
+    + scale_color_cmap_d("viridis")
+    + theme_classic()
+)
+```
+
+```{python}
+#| label: German-prod-mix
+#| fig-align: "center"
+
+d_de = (d[d["siec"].isin(siec_labels.keys())]
+    .query('freq == "M" and geo == "DE" and unit == "PC"')
+    .rename(columns={"value" : "perc", "variable" : "ym"})
+    .drop(columns=["freq", "unit", "geo"])
+    .assign(
+        source = lambda x: x.siec.map(siec_labels)
+        , ym = lambda x: pd.to_datetime(x.ym)
+    )
+    .drop(columns="siec")
+    .dropna()
+    .copy()
+)
+
+max_date = d_de.ym.max()
+max_date = max_date.strftime(format="31.%m.%Y")
+(
+    d_de.query("ym >= 2018") >>
+    ggplot(aes("ym", "perc", color="source"))
+    + geom_area(aes(fill="source"))
+    + geom_hline(yintercept = 50, color="darkgrey")
+    + scale_x_datetime(breaks="1 year", date_labels="%Y")
+    + scale_y_continuous(labels=number_format(suffix="%"))
+    + labs(x="", y=""
+    , title="Anteile an der Energieproduktion"
+    , subtitle="Hauptenergieträger für Deutschland"
+    , caption=f"Quelle: Eurostat - Daten bis {max_date}"
+    , fill="Energieträger"
+    , colour="Energieträger"
+    )
+    + theme_classic()
+    + scale_color_cmap_d(cmap_name="viridis")
+    + scale_fill_cmap_d(cmap_name="viridis")
+    #+ scale_fill_brewer(palette="Blues", direction=-1)
+    #+ scale_color_brewer(palette="Blues", direction=-1)
+)
+```
 
 
 ## Energy Consumption
